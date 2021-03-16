@@ -1,0 +1,29 @@
+1b9b5b1 HEAD@{0}: merge develop: Fast-forward
+34ccbc0 HEAD@{1}: checkout: moving from images to master
+6bc0df3 HEAD@{2}: checkout: moving from develop to images
+1b9b5b1 HEAD@{3}: checkout: moving from images to develop
+6bc0df3 HEAD@{4}: checkout: moving from develop to images
+1b9b5b1 HEAD@{5}: commit (merge): resolve conflicts
+6bc0df3 HEAD@{6}: checkout: moving from styles to develop
+befa4a5 HEAD@{7}: checkout: moving from develop to styles
+6bc0df3 HEAD@{8}: reset: moving to HEAD
+6bc0df3 HEAD@{9}: reset: moving to HEAD
+6bc0df3 HEAD@{10}: reset: moving to HEAD
+6bc0df3 HEAD@{11}: reset: moving to HEAD
+6bc0df3 HEAD@{12}: reset: moving to HEAD
+6bc0df3 HEAD@{13}: merge images: Fast-forward
+211e809 HEAD@{14}: checkout: moving from styles to develop
+befa4a5 HEAD@{15}: commit: add styles to index.html
+d4f4f19 HEAD@{16}: commit: add styles
+211e809 HEAD@{17}: checkout: moving from develop to styles
+211e809 HEAD@{18}: checkout: moving from images to develop
+6bc0df3 HEAD@{19}: commit: add img to index.html
+db199d3 HEAD@{20}: commit: add images folder
+211e809 HEAD@{21}: checkout: moving from develop to images
+211e809 HEAD@{22}: checkout: moving from master to develop
+34ccbc0 HEAD@{23}: checkout: moving from develop to master
+211e809 HEAD@{24}: commit: add index.html
+34ccbc0 HEAD@{25}: checkout: moving from master to develop
+34ccbc0 HEAD@{26}: reset: moving to 34ccbc049ccd326ce4ff0099f8c27b0a89efd51d
+ffaf412 HEAD@{27}: commit: next commit
+34ccbc0 HEAD@{28}: commit (initial): init commit
