@@ -7,7 +7,7 @@
 7. I was pusshed my local repo on GitHub.
 8. Added my trainers as collaborators.
 9. Maked file readme.md ad described results of my work with Git.
-
-------------------------------------------------------------------
-DevOps it is a methodology, a set of concepts, approaches and tools that improve the ability of companies to create applications and services at high speed and with less cost. An DevOps Engineer is responsible for deploying and maintaining the code infrastructure, monitoring processes, and quickly troubleshooting.
-------------------------------------------------------------------
+<br>
+<p><img src='images/1.1_sh1.png'></p>
+-----------
+### DevOps it is a methodology, a set of concepts, approaches and tools that improve the ability of companies to create applications and services at high speed and with less cost. An DevOps Engineer is responsible for deploying and maintaining the code infrastructure, monitoring processes, and quickly troubleshooting.
