@@ -26,4 +26,4 @@
 13. <B>Created a static website on Amazon S3, publicly available, with the completed AWS labs and services which i worked within the educational program and earlier.</b>
     <br><p><img src='images/2.2_sh12.png'></p>
     <br>
- <center> <i><a href='http://imashnovwordpress.s3-website.us-east-2.amazonaws.com'><h2> >> The website link << </h2></a></i> </center>
+ <h2>The website link: <h3><i>http://imashnovwordpress.s3-website.us-east-2.amazonaws.com</h2></i>
