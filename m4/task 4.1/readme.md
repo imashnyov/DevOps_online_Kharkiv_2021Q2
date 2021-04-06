@@ -25,7 +25,7 @@
 ### Part 3
 
 1. Created the following network (image below) and tested.
-   <p><img src='images/4.gif'><img src='images/4.png'><img src='images/4_1.png'></p>
+   <p><img src='images/4.gif'><br><img src='images/4.png'><img src='images/4_1.png'></p>
 2. <b>Differences in network performance in parts 1, 2 and 3:</b> The hub sends a network packet will send to everyone who is connected to it, addressing in the switch is based on the mac device address table. Each network device or computer has a unique mac address and the switch maintains a table of mac addresses, the switch knows on which port the mac address (network device) is located, and when it sees a packet for it, it sends it not as a hub to everyone, but only to one addressee. As a result, the network load is less.
 
 ---------
