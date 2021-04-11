@@ -60,7 +60,7 @@
    <p><img  src='images2/1.1.png'></p>
    I have listed subdirectories of the root directory up to and including the second nesting level.
    <br><b> tree -L 2 | less</b> :
-   <img  src='images2/1.2.png'></p>
+   <p><img  src='images2/1.2.png'></p>
 2. file - command shows the file type.
    <img  src='images2/2.png'></p>
 3. Using <b>cd</b> command without parameter will return you to home directory.
