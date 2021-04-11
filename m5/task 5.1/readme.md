@@ -39,10 +39,10 @@
 <br> 6. The command "less / more .bash *" outputs the contents of all files starting with .bash into one display screen.
    <p><img src='images/5.1_6.png'><img  src='images/5.1_6.1.png'></p>
 
-7.  The .plan file is used for short messages about user busyness.
+<br>7.  The .plan file is used for short messages about user busyness.
     <p><img  src='images/5.1_7.png'></p>
 
-8. I displayed the contents of the root folder with the command "ls".
+<br>8. I displayed the contents of the root folder with the command "ls".
    <p><img  src='images/5.1_8.png'></p>
     The first character in the permission box indicates the file type:
    
