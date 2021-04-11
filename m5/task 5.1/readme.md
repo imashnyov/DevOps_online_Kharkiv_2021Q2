@@ -69,9 +69,9 @@
    * "-l" - display a detailed list, which will display the owner, group, creation date, size and other parameters;
    * "-a" - show all files, including hidden ones;
 5. I created a subdirectory in my home directory, created a file containing information about directories located in the root directory (using I / O redirection operations), copied the created file to my home directory using relative and absolute addressing. Deleted the previously created file subdirectory and deleted the file copied to the home directory.
-    <p><img  src='images2/5.png'><img  src='images2/5.1.png'><img  src='images2/5.2.png'><img  src='images2/5.3.png'></p>
+    <p><img  src='images2/5.png'><br><img  src='images2/5.1.png'><br><img  src='images2/5.2.png'><br><img  src='images2/5.3.png'></p>
 6. I created a "test" subdirectory in my home directory, copied the .bash_history file into that directory, changing its name to "labwork2". Created hard and soft links to the "labwork2" file in the test subdirectory. Modified data with soft link. Removed labwork2.
-   <p><img  src='images2/6.png'><img  src='images2/6.1.png'></p>
+   <p><img  src='images2/6.png'><br><img  src='images2/6.1.png'></p>
    Soft links become invalid after deleting, moving or renaming a file. In a hard link, you can move and rename and even delete a file without breaking the hard link.
 7. The "locate" command is used to find files, the search takes place in its own database.
    <p><img  src='images2/7.png'></p>
@@ -90,7 +90,7 @@
     <p><img  src='images2/13.png'></p>
     The "b" character stands for Linux block devices, and the "c" character stands for a character.
 14. File types in Linux:
-    <p><img  src='images2/14.png'><img  src='images2/14.1.png'></p>
+    <p><img src='images2/14.png'><br><img  src='images2/14.1.png'></p>
     
     * "l" - softlink;
     * "d" -directory;
