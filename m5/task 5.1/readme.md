@@ -62,10 +62,10 @@
    <br><b> tree -L 2 | less</b> :
    <p><img  src='images2/1.2.png'></p>
 2. file - command shows the file type.
-   <img  src='images2/2.png'></p>
+   <p><img  src='images2/2.png'></p>
 3. Using <b>cd</b> command without parameter will return you to home directory.
 4. ls - displays the contents of a directory.
-   <img  src='images2/4.png'></p>
+   <p><img  src='images2/4.png'></p>
    * "-l" - display a detailed list, which will display the owner, group, creation date, size and other parameters;
    * "-a" - show all files, including hidden ones;
 5. I created a subdirectory in my home directory, created a file containing information about directories located in the root directory (using I / O redirection operations), copied the created file to my home directory using relative and absolute addressing. Deleted the previously created file subdirectory and deleted the file copied to the home directory.
