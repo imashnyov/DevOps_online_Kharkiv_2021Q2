@@ -30,16 +30,13 @@
 4. The "chfn" command in Linux allows you to change the full username and associated information. You can view personal information using "finger".
    <p><img src='images/5.1_4.png'></p>
 5. ”man” and “info” commands display help information on Linux commands.
+   <br><b>passwd -S $user_name –status.</b>
+   <p><img src='images/5.1_5.png'></p>
+   Show account status. The status information contains 7 fields. The first field contains the name of the account. The second field indicates whether the account is locked (L), has no password (NP), or has a work password (P). The third field stores the date when the password was last changed. The next four fields store the minimum age, maximum age, warning period, and password inactivity period. These times are measured in days.
+   <p><img src='images/5.1_5.1.png'></p>
+   <b>chfn -f "fullName" $ ​​username</b> - change the full name of the user.
    
-    passwd -S $user_name –status.
-    <p><img src='images/5.1_5.png'></p>
-    Show account status. The status information contains 7 fields. The first field contains the name of the account. The second field indicates whether the account is locked (L), has no password (NP), or has a work password (P). The third field stores the date when the password was last changed. The next four fields store the minimum age, maximum age, warning period, and password inactivity period. These times are measured in days.
-
-
-    <p><img src='images/5.1_5.1.png'></p>
-    chfn -f "fullName" $ ​​username - change the full name of the user.
-
-6. The command "less / more .bash *" outputs the contents of all files starting with .bash into one display screen.
+<br> 6. The command "less / more .bash *" outputs the contents of all files starting with .bash into one display screen.
    <p><img src='images/5.1_6.png'><img  src='images/5.1_6.1.png'></p>
 
 7.  The .plan file is used for short messages about user busyness.
