@@ -102,3 +102,4 @@
     * "s" - socket.
 15. I have listed the first 5 files in the / etc directory that were recently accessed.
     <p><img  src='images2/15.png'></p>
+    or use: <b>ls -laut /etc/ -p | grep -v / | head -6</b>
