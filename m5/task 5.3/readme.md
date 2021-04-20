@@ -176,5 +176,14 @@ find out how much memory is being used and the average load:
    <p><img  src='images/part2_4.png'></p>
    <p><img  src='images/part2_4.1.png'></p>
    
-5. ???
-   
+5. SSH (Secure Shell) is a network protocol that allows remote control of the operating system and tunneling of TCP connections. It is similar in functionality to the Telnet and rlogin protocols, but, unlike them, it encrypts all traffic, including transmitted passwords. 
+   <p><img  src='images/part2_5_1.1.png'></p><p><img  src='images/part2_5_1.2.png'></p>
+
+
+    TELNET (teletype network) is a network protocol for implementing a text terminal interface over a network (in modern form - using TCP). The protocol does not provide for the use of either encryption or data authentication. Therefore, it is vulnerable to any kind of attack to which its transport is vulnerable, that is, the TCP protocol.
+    <p><img  src='images/part2_5_2.1.png'></p><p><img  src='images/part2_5_2.2.png'></p>
+
+    RLOGIN protocol (Remote LOGIN) - the protocol allows users to connect to systems on other machines and operate in the same way as when the terminal is directly connected to the machine. This protocol provides the same service as the TELNET protocol.
+    The original Berkley package that provides rlogin with rcp (remote-copy, which allows you to copy files over the network) and rsh (remote-shell, which allows you to execute commands on remote machines without logging in).
+    <b>The ssh package replaces the above features and rlogin itself: <font color='red'>scp</font> replaces <font color='green'>rcp</font>, ssh itself replaces <font color='red'>rlogin</font> and <font color='green'>rsh</font>.</b>
+    <p><img  src='images/part2_5_3.1.png'></p><p><img  src='images/part2_5_3.2.png'></p>
