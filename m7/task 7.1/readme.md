@@ -143,4 +143,4 @@ Additionally, I created a script to improve my skills in the bash and placed the
             fi
 <a href="files/file_check">Final script file</a>
 
-<a href="files/apache_logs">Apache log file</a>
+<a href="files/apache_logs.txt">Apache log file</a>
