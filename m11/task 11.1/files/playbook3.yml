@@ -1,0 +1,56 @@
+---
+- name: Install Apache Web Server on AMI Linux. Upload web page example
+  hosts: my_all_servers
+  become: yes
+
+
+  vars:
+    source_dir: ./MyWebSite
+    destin_dir: /var/www/html
+
+
+  tasks:
+
+  - name: Check Linux distro
+    debug: var=ansible_os_family
+
+  - block: # For RedHat
+
+    - name: Install Apache Web Server on RedHat Family
+      yum:  name=httpd state=latest
+
+    - name: Start Apache and enable it during boot
+      service: name=httpd state=started enabled=yes
+
+    when: ansible_os_family == "RedHat"
+
+  - block: #For Debian
+
+    - name: Install Apache Web Server on Debian Family
+      apt:  update_cache=yes name=apache2 state=latest
+
+    - name: Start Apache and enable it during boot
+      service: name=apache2 state=started enabled=yes
+
+    when: ansible_os_family == "Debian"
+
+  - name: Generate index.html using template
+    template: src={{ source_dir }}/index.j2 dest={{ destin_dir }}/index.html  mode=0555
+    notify:
+        - Restart Apache RedHat
+        - Restart Apache Debian
+
+  - name: Copy dir "MyWebServer" to target server
+    copy: src={{ source_dir }}/photo.jpg dest={{ destin_dir }} mode=0555
+    notify:
+        - Restart Apache RedHat
+        - Restart Apache Debian
+
+  handlers:
+  - name: Restart Apache RedHat
+    service: name=httpd state=restarted
+    when: ansible_os_family == "RedHat"
+
+  - name: Restart Apache Debian
+    service: name=apache2 state=restarted
+    when: ansible_os_family == "Debian"

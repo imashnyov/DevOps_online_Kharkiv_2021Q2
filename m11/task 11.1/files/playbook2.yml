@@ -1,0 +1,11 @@
+---
+- name: Install Apache Web Server on AMI Linux
+  hosts: jenkins_server
+  become: yes
+
+  tasks:
+  - name: Install Apache Web Server
+    yum:  name=httpd state=latest
+
+  - name: Start Apache and enable it during boot
+    service: name=httpd state=started enabled=yes

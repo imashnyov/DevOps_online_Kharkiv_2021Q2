@@ -1,0 +1,8 @@
+---
+- name: Install Apache Web Server on AMI Linux. Upload web page example
+  hosts: my_all_servers
+  become: yes
+
+  roles:
+    - { role: my_first_roles, when: ansible_system == 'Linux' }
+ 

@@ -1,0 +1,13 @@
+---
+- name: Loop Playbook
+  hosts: jenkins_server
+  become: yes
+
+
+  tasks:
+  - name: Hello World
+    debug: msg="Hello {{ item }}"
+    with_items:
+     - "Frontend"
+     - ".NET"
+     - "Java"
