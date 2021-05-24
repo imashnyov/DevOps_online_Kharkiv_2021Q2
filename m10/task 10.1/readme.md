@@ -76,7 +76,7 @@ And turned my playbook3 into a role
 <br>
 Created a playbook to play the role
 <p><img  src='images/roles_playbook.png'></p>
-<p><a href="files/playbook_for_roles">files/playbook_for_roles</a></p>
+<p><a href="files/playbook_for_roles.yml">files/playbook_for_roles</a></p>
 <br>
 I have uninstalled Apache on Linux AMI
 <p><img  src='images/rm_apache_ami.png'></p>
